@@ -8,13 +8,18 @@
  *
  */
 
+ import java.util.*;
+ import java.lang.*;
+
 
 public class SortedListArrayBased extends ListArrayBased
 {
 
-  	public SortedListArrayBased()
+  	public String SortedListArrayBased()
   	// creates an empty list
   	{
+      ArrayList<String> list = new ArrayList<String>;
+      return list;
 		// TO BE IMPLEMENTED BY YOU
   	}// end default constructor
 
@@ -24,6 +29,10 @@ public class SortedListArrayBased extends ListArrayBased
   	{
 		try
 		{
+      list.add(item);
+
+      //where&when to sort??
+
 			// TO BE IMPLEMENTED BY YOU
 		}
 		catch(Exception e)
@@ -60,5 +69,3 @@ public class SortedListArrayBased extends ListArrayBased
 	}
 
 }  // end SortedListArrayBased
-
-
